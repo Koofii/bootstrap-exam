@@ -19,16 +19,22 @@ Specific service page - One for each service
  
   -Roomservice
    - Tabs. En tab med information och en bokning
+   
   -Utflykter
    - Tabs. Första med generell information - andra tab ska vara bokning
+   
   -Spa/Massge
    - Tabs. Första med generell information - andra tab ska vara bokning
+   
   - Konferensrum
    - Tabs. Första med generell information - andra tab ska vara bokning
+   
   - Restaurang
    - Tabs för olika matgenre och då har vi form i varje tab.
+   
   - Wifi-service
    - Inga tabs. Information och beställning (form). Använd inputaddon för e-mail. i formen.
+   
   
   
 Photo gallery page
