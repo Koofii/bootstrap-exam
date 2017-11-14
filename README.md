@@ -16,6 +16,7 @@ Specific service page - One for each service
  - Breadcrumb.
  - På utflykt-sidan ska vi ha en table där man ser vilka som har anmält sig.
  - Responsive images.
+ 
  Roomservice
   - Tabs. En tab med information och en bokning
  Utflykter
