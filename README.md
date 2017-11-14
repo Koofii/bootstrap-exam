@@ -17,18 +17,18 @@ Specific service page - One for each service
  - På utflykt-sidan ska vi ha en table där man ser vilka som har anmält sig.
  - Responsive images.
  
- Roomservice
+  Roomservice
   - Tabs. En tab med information och en bokning
- Utflykter
+  Utflykter
   - Tabs. Första med generell information - andra tab ska vara bokning
- Spa/Massge
+  Spa/Massge
   - Tabs. Första med generell information - andra tab ska vara bokning
- Konferensrum
+  Konferensrum
   - Tabs. Första med generell information - andra tab ska vara bokning
- Restaurang
+  Restaurang
   - Tabs för olika matgenre och då har vi form i varje tab.
- Wifi-service
-  - Inga tabs. Information och beställning (form)
+  Wifi-service
+  - Inga tabs. Information och beställning (form). Använd inputaddon för e-mail. i formen.
   
   
 Photo gallery page
@@ -47,6 +47,7 @@ Contact page
 Blog page
  - Collapsebehaviour på blogpost. Minst 4.
  - Kommentarer och post-comment utanför kollaps.
+ - Override bootstrap custom stylesheet
 
 
 
@@ -62,4 +63,13 @@ Flera restauranger - boka bord
 Wifi-service ska finnas länk på startsidan.
 
 Vi har bestämt allt enligt ovan specifikation.
+
+Fördelning av arbete:
+Kristoffer och Simon gör klart Start-page idag. 2017-11-14. Timmar läggs i separat loggbok
+
+Basheer: Contact-page, About-page, Allservice-page
+Simon: Photogallery-page och Blogpost-page
+Kristoffer: Specific services-page.
+
+
 
