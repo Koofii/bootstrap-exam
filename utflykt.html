@@ -11,6 +11,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,13 +36,13 @@
             </div>
             <div class="navbar-collapse collapse" id="my-menu">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="blog.html">Blog</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
                             <span class="caret"></span>
                         </a>
@@ -64,7 +65,7 @@
                             <li>
                                 <a href="konferens.html">Conference rooms</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="utflykt.html">Trips</a>
                             </li>
                         </ul>
@@ -81,8 +82,93 @@
             </div>
             <!--END div collapse -->
         </nav>
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span> </a></li>
+            <li><a href="all-services.html">All services</a></li>
+            <li class="active">Trips</li>
+        </ol>
     </div>
     <!--END div contailer contains nav -->
+
+
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#waterpark">Waterpark</a></li>
+            <li><a data-toggle="tab" href="#riverrafting">Riverrafting</a></li>
+            <li><a data-toggle="tab" href="#rentacar">Rent a car</a></li>
+            <li><a data-toggle="tab" href="#order">Order</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="waterpark"class="tab-pane fade in active">
+                <div class="row roomservice">
+                    <img src="https://i.imgur.com/Hyhg2CM.jpg" alt="waterpark" class="img img-responsive col-sm-3">
+                    <div class="col-sm-9">
+                        <h2>WATERPARK</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, hic! Eaque enim in voluptate vel, tenetur quod beatae eos quas, facere voluptatum aut necessitatibus, exercitationem suscipit ducimus qui repudiandae odio.
+                        Ipsum inventore natus deserunt delectus dolores expedita odio repellat alias a sunt dolor voluptatibus, sapiente eos magni perspiciatis, commodi id tenetur iusto impedit excepturi fugiat nulla, obcaecati aliquam maxime. Pariatur.
+                        Officiis, ea cumque optio modi possimus enim laudantium odit debitis? In ipsam nulla quia eaque totam, debitis iure quasi earum. Sequi repudiandae culpa similique eius rerum amet molestiae, tempore laboriosam!</p>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Nr of companions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2017-11-18</th>
+                            <td>08.00</td>
+                            <td>15 persons</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2017-11-18</th>
+                            <td>10.00</td>
+                            <td>10 persons</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2017-11-19</th>
+                            <td>08.00</td>
+                            <td>20 persons</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2017-11-19</th>
+                            <td>10.00</td>
+                            <td>25 persons</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="riverrafting"class="tab-pane fade in">
+                <div class="row roomservice">
+                    <img src="http://balitravelshop.com/image/cache/data/Tour%20Category/Rafting/rafting%20telaga%20waja%20bali%203%20170-500x500.jpg" alt="" class="img img-responsive col-sm-3">
+                    <div class="col-sm-9">
+                        <h2>River rafting</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, dignissimos facere quod corporis reprehenderit incidunt quam autem? Nostrum odit nobis minima dolorum quos est voluptatum, dolore voluptates qui voluptate. Atque?
+                        Nulla ipsum et eius iure dolore. Distinctio accusamus illum minus voluptates, voluptas autem ipsa. Voluptas, iusto quibusdam quae tempora alias enim est provident architecto doloribus quo facere, velit dolores natus!
+                        Pariatur harum nihil reprehenderit voluptates dolore hic sapiente temporibus mollitia, quidem, a et saepe eaque quae, obcaecati explicabo nostrum porro tempora ducimus voluptas. Deserunt cupiditate eum error rerum numquam cumque.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="rentacar"class="tab-pane fade in">
+                <div class="row roomservice">
+                    <img src="https://i.pinimg.com/736x/2e/49/92/2e49924275ebefd185fdda194151c08e--black-beauty-audi-s.jpg" alt="" class="img img-responsive col-sm-3">
+                    <div class="col-sm-9">
+                        <h2>Rent a car!</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, dignissimos facere quod corporis reprehenderit incidunt quam autem? Nostrum odit nobis minima dolorum quos est voluptatum, dolore voluptates qui voluptate. Atque?
+                        Nulla ipsum et eius iure dolore. Distinctio accusamus illum minus voluptates, voluptas autem ipsa. Voluptas, iusto quibusdam quae tempora alias enim est provident architecto doloribus quo facere, velit dolores natus!
+                        Pariatur harum nihil reprehenderit voluptates dolore hic sapiente temporibus mollitia, quidem, a et saepe eaque quae, obcaecati explicabo nostrum porro tempora ducimus voluptas. Deserunt cupiditate eum error rerum numquam cumque.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="order"class="tab-pane fade in">
+                    
+            </div>
+        </div>
+    </div>
 
 
 
