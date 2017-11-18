@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Happy Time - Wifi</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,13 +35,13 @@
             </div>
             <div class="navbar-collapse collapse" id="my-menu">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="blog.html">Blog</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
                             <span class="caret"></span>
                         </a>
@@ -49,7 +49,7 @@
                             <li>
                                 <a href="all-services.html">All Services</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="wifi.html">Wifi</a>
                             </li>
                             <li>
@@ -81,6 +81,99 @@
             </div>
             <!--END div collapse -->
         </nav>
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span> </a></li>
+            <li><a href="all-services.html">All services</a></li>
+            <li class="active">Wi-Fi</li>
+        </ol>
+    </div>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#info">Information</a></li>
+            <li><a data-toggle="tab" href="#order">Order</a></li>
+            
+        </ul>
+        
+        <div class="tab-content">
+            <div id="info"class="tab-pane fade in active text-center">
+                <img class="img img-responsive center-block" src="http://www.informationsecuritybuzz.com/wp-content/uploads/wifi-1.jpg" alt="Wifi">
+                <h1>Information</h1>
+                <p>Order your Wi-fi and get access right away!</p><br>
+                <p>
+                    Prices: <br>
+                    One day: 3$ <br>
+                    Three days: 7$ <br>
+                    One week: 13$ <br>
+                </p>
+            </div>
+            <div id="order"class="tab-pane fade">
+                <h1 class="text-center">Order your Wi-fi and get access right away!</h1>
+                <form action="#" method="post" class="form-horizontal">
+                    <div class="row">
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label for="input-1" class="control-label col-xs-4">Room:</label>
+                            <div class="col-xs-8">
+                                <input id="input-1" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label for="input-2" class="control-label col-xs-4">Name:</label>
+                            <div class="col-xs-8">
+                                <input id="input-2" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label for="input-3" class="control-label col-xs-4">E-mail:</label>
+                            <div class="col-xs-8">
+                                <div class="input-group">
+                                    <input id="input-3"type="text" class="form-control" placeholder="Recipient's E-mail" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label class="control-label col-xs-4">How long:</label>
+                            <div class="container col-xs-8">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Wifi-service
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">One day</a></li>
+                                        <li><a href="#">Three days</a></li>
+                                        <li><a href="#">One Week</a></li>
+                                        <li><a href="#">Two weeks</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <button data-toggle="modal" data-target="#mymodal" class="btn btn-primary center-block">
+                    Order
+                </button>
+                <div class="modal fade" id="mymodal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn btn-default close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Wifi-Service</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>By clicking Accept you agree on the terms of service</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Accept</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--END div contailer contains nav -->
 

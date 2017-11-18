@@ -1,0 +1,18 @@
+.roomservice{
+    border-radius: 20px;
+    background: linear-gradient(#337ab7,#265a88);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: gray 5px 5px 5px;
+}
+.roomservice img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.roomservice p, .roomservice h3, .roomservice div h2{
+    color: whitesmoke;
+}
+.restaurant-row{
+    margin-top: 30px;
+}
