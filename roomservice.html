@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Happy Time - Roomservice</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,13 +36,13 @@
             </div>
             <div class="navbar-collapse collapse" id="my-menu">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="blog.html">Blog</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
                             <span class="caret"></span>
                         </a>
@@ -52,7 +53,7 @@
                             <li>
                                 <a href="wifi.html">Wifi</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="roomservice.html">Roomservice</a>
                             </li>
                             <li>
@@ -81,9 +82,124 @@
             </div>
             <!--END div collapse -->
         </nav>
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span> </a></li>
+            <li><a href="all-services.html">All services</a></li>
+            <li class="active">Roomservice</li>
+        </ol>
     </div>
     <!--END div contailer contains nav -->
-
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#info">Information</a></li>
+            <li><a data-toggle="tab" href="#order">Order</a></li>
+            
+        </ul>
+        
+        <div class="tab-content">
+            <div id="info"class="tab-pane fade in active text-center">
+                <div class="row"><h1 class="text-center">Roomservice</h1></div>
+                <br>
+                <br>
+                <div class="row roomservice">
+                    <img src="http://q.likesuccess.com/64/3166134-most-beautiful-living-room-walls.jpg" alt="" class="img img-responsive col-xs-12 col-sm-3">
+                    <h3>Cleaning</h3>
+                    <p class="col-xs-12 col-sm-9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, consectetur impedit suscipit officia qui dolore modi debitis magnam illum doloribus, provident quaerat magni. Iste, ducimus id blanditiis commodi animi eum?
+                    Officiis cupiditate ea obcaecati non vero aperiam ipsa quibusdam illo ipsum? In perferendis consectetur atque doloribus ipsam illum, mollitia tenetur veniam quaerat beatae animi, ut sint. Dolorum consectetur ullam expedita!
+                    Mollitia ipsam eaque nihil tempore quibusdam aliquam, quia possimus dolorem commodi provident voluptates in officiis impedit optio labore. At quibusdam in est fugiat odio. Perferendis neque ut doloremque aliquam officiis!</p>
+                </div>
+                <div class="row roomservice">
+                    <img src="https://static1.squarespace.com/static/55d41cede4b0d22e804999c8/562b9217e4b01a45f69ab1d9/565a7c70e4b0b80773a08545/1448770684011/PB191651_1.JPG" alt="" class="img img-responsive col-xs-12 col-sm-3 col-sm-push-9">
+                    <h3 class="text-center">Order food</h3>
+                    <p class="col-xs-12 col-sm-9 col-sm-pull-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat optio quas eos amet, impedit natus repudiandae facere esse reiciendis sapiente quasi odit quia et quidem, autem rem! Ullam, molestias reiciendis?
+                    Fugit aliquid, beatae aspernatur animi similique ducimus soluta quaerat voluptas debitis quos quibusdam quas deserunt ut distinctio dignissimos officiis tempore possimus unde cum, ipsa dolores est? Modi nesciunt eaque odio?
+                    Libero, quis deserunt maiores corporis vitae quas aut quo quia rerum ipsa reiciendis non eius, deleniti accusamus pariatur ullam alias consequatur ducimus exercitationem laborum! Aliquid soluta molestiae amet quibusdam dolores.</p>
+                </div>
+                <div class="row roomservice">
+                    <img src="http://www.travelandleisureasia.com/siteimage/scale/0/0/171323.jpg" alt="" class="img img-responsive col-xs-12 col-sm-3">
+                    <h3>Special treats</h3>
+                    <p class="col-xs-12 col-sm-9">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam tempore labore libero in alias ullam mollitia adipisci dolorum voluptate sequi illo quibusdam voluptas, quia doloribus deserunt temporibus perferendis vel!
+                    Accusamus repellendus rem omnis ipsam laudantium cumque recusandae, fugiat soluta accusantium pariatur quo cum numquam deleniti provident enim ex, libero at! Ut aut beatae iste maiores est consequuntur, ducimus magni?
+                    Porro consectetur harum quasi rem non reprehenderit impedit provident qui dolores voluptatem iusto quas error ex soluta, natus ipsa ab, quos amet quod repudiandae inventore facere laudantium illo. Facere, reprehenderit?</p>
+                </div>
+            </div>
+            <div id="order"class="tab-pane fade">
+                <h1 class="text-center">Order roomservice</h1>
+                <form action="#" method="post" class="form-horizontal">
+                    <div class="row">
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label for="input-1" class="control-label col-xs-4">Room:</label>
+                            <div class="col-xs-8">
+                                <input id="input-1" class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label for="input-2" class="control-label col-xs-4">Name:</label>
+                            <div class="col-xs-8">
+                                <input id="input-2" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label for="input-3" class="control-label col-xs-4">E-mail:</label>
+                            <div class="col-xs-8">
+                                <div class="input-group">
+                                    <input id="input-3"type="text" class="form-control" placeholder="Recipient's E-mail" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-6">
+                            <label class="control-label col-xs-4">What service:</label>
+                            <div class="container col-xs-8">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Roomservice
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Cleaning</a></li>
+                                        <li><a href="#">Breakfast</a></li>
+                                        <li><a href="#">Special treatment</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="input-5" class="contol-label col-xs-2 text-right">Message:</label>
+                            <div class="col-xs-9">
+                                <textarea id="input-5" class="form-control"></textarea>
+                            </div>  
+                        </div>
+                    </div>
+                </form>
+                <button data-toggle="modal" data-target="#mymodal" class="btn btn-primary center-block">
+                    Order
+                </button>
+                <div class="modal fade" id="mymodal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn btn-default close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Roomservice</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>By clicking Accept you agree on the terms of service</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Accept</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
