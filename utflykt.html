@@ -165,7 +165,80 @@
                 </div>
             </div>
             <div id="order"class="tab-pane fade in">
-                    
+                <div class="restaurant-row">
+                    <form action="#" method="post" class="form-horizontal">
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="input-1" class="control-label col-xs-4">Room nr:</label>
+                                <div class="col-xs-8">
+                                    <input id="input-1" class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="input-2" class="control-label col-xs-4">Name:</label>
+                                <div class="col-xs-8">
+                                    <input id="input-2" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="input-3" class="control-label col-xs-4">E-mail:</label>
+                                <div class="col-xs-8">
+                                    <div class="input-group">
+                                        <input id="input-3"type="text" class="form-control" placeholder="Recipient's E-mail" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label class="control-label col-xs-4">What activity?</label>
+                                <div class="container col-xs-8">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Activity
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Waterpark</a></li>
+                                            <li><a href="#">Riverrafting</a></li>
+                                            <li><a href="#">Rent a Car</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="input-4" class="control-label col-xs-4">How many people are you?</label>
+                                <div class="col-xs-8">
+                                    <input id="input-4" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <button data-toggle="modal" data-target="#mymodal" class="btn btn-primary center-block">
+                        Order
+                    </button>
+                    <div class="modal fade" id="mymodal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-default close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Restaurant-booking</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>By clicking Accept, you book chosen activity </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Accept</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
