@@ -1,3 +1,5 @@
+/* CSS tillhörande Kristoffers del */
+/* styling för indexsidan infotext */
 .indexinfo{
     margin-top: 20px;
     border-radius: 10px;
@@ -13,10 +15,12 @@
     margin-left: 5px;
 }
 
-
+/* sätter annan färg på navbar */
 .navtest{
     background-color: #3d3d3e;
 }
+
+/* sätter annan textfärg för listitems */
 .navbar-brand span{
     color: whitesmoke;
 }
@@ -33,7 +37,7 @@
     color: whitesmoke;
     background-color: transparent;
   }
-
+/* mediaquery för att ha annan färg på listitems */
 @media (max-width:767px){
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: whitesmoke;
@@ -43,7 +47,7 @@
   }
 }
 
-
+/* list styling för information på specific service pages */
 .roomservice{
     border-radius: 10px;
     background: linear-gradient(#337ab7,#265a88);
