@@ -1,5 +1,5 @@
 .roomservice{
-    border-radius: 20px;
+    border-radius: 10px;
     background: linear-gradient(#337ab7,#265a88);
     
     margin-bottom: 20px;
@@ -21,4 +21,13 @@
 }
 .roomservice:nth-child(1){
     margin-top: 20px;
+}
+table{
+    background-color: #8ec4f1;
+    border-radius: 10px;
+}
+
+.breadcrumb{
+    border-radius: 0px;
+    background-color: white;
 }
