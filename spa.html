@@ -36,14 +36,16 @@
             </div>
             <div class="navbar-collapse collapse navtest" id="my-menu">
                 <ul class="nav navbar-nav navtest">
-                    <li class="active">
+                    <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="blog.html">Blog</a>
                     </li>
-                    <li><a href="photogallery.html">Photo Gallery</a></li>
-                    <li class="dropdown">
+                    <li>
+                        <a href="photogallery.html">Photo Gallery</a>
+                    </li>
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
                             <span class="caret"></span>
                         </a>
@@ -60,7 +62,7 @@
                             <li>
                                 <a href="restaurang.html">Restaurants</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="spa.html">Spa/Massage</a>
                             </li>
                             <li>
@@ -83,9 +85,199 @@
             </div>
             <!--END div collapse -->
         </nav>
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="all-services.html">All Services</a></li>
+            <li class="active">Spa/Massage</li>
+        </ol>
     </div>
     <!--END div contailer contains nav -->
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" id="firsttab" href="#info">Spa/Massage</a>
+            </li>
+            <li>
+                <a data-toggle="tab" id="secondtab" href="#spa">Spa</a>
+            </li>
+            <li>
+                <a data-toggle="tab" id="thirdtab" href="#massage">Massage</a>
+            </li>
+            <li>
+                <a data-toggle="tab" id="fourthtab" href="#bokning">Book your time</a>
+            </li>
+        </ul>
 
+        <div class="tab-content">
+
+            <div class="tab-pane active" id="info">
+                <!--TAB PANE 1 -->
+                <h2 class="text-center">Enjoy our exlusive massage and spa!</h2>
+
+                <div class="row margin-top">
+                    <div class="col-sm-6">
+                        <div class="panel panel-info" align="center">
+                            <div class="panel-heading">
+                                <h3>Spa</h3>
+                            </div>
+                            <div class="panel-body">
+                                <img class="img-responsive img-rounded" src="http://www.visitmonterosa.com/wp-content/uploads/2017/05/spa-ROMANTIK-HOTEL-JOLANDA-SPORT-1000x500.jpg"
+                                    alt="">
+                            </div>
+                            <div class="panel-footer">
+                                <a class="btn btn-default btn-primary" href="#" onclick="javascript:$('#secondtab').tab('show');">Click here For more Informaion</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="panel panel-info" align="center">
+                            <div class="panel-heading">
+                                <h3>Massages</h3>
+                            </div>
+                            <div class="panel-body">
+                                <img class="img-responsive img-rounded" src="http://sibsanresort.com/img/spa/spa_13.jpg" alt="">
+                            </div>
+                            <div class="panel-footer">
+                                <a class="btn btn-default btn-primary" href="#" onclick="javascript:$('#thirdtab').tab('show');">Click here For more Informaion</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END TAB PANE 1-->
+
+
+
+            <div class="tab-pane" id="spa">
+                <!--TAB Pane 2 -->
+                <h2 class="text-center">Spa-section</h2>
+                <div class="row margin-top card">
+                    <div class="col-sm-8">
+                        <h3 class="text-center">Pools</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle center-img" src="https://s3-media2.fl.yelpcdn.com/bphoto/xefM2Pwe4_HY0d4sQ2HdaQ/ls.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="row margin-top card">
+                    <div class="col-sm-8 col-sm-push-4">
+                        <h3 class="text-center">PowerNaps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-pull-8">
+                        <img class="img-responsive img-circle center-img" src="https://s3-media4.fl.yelpcdn.com/bphoto/Pj9smhbLhPq1t_d98CwE_g/ls.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <!--END TAB PANE 2-->
+
+
+            <div class="tab-pane" id="massage">
+                <!--TAB Pane 3-->
+                <h2 class="text-center">Massage</h2>
+                <div class="row margin-top card">
+                    <div class="col-sm-8">
+                        <h3 class="text-center">Thai-Massage</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle center-img" src="https://s3-media1.fl.yelpcdn.com/bphoto/kEI8NOCMqiam54zbYZpf6w/ls.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="row margin-top card">
+                    <div class="col-sm-8 col-sm-push-4">
+                        <h3 class="text-center">Hot Stone Massage</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-pull-8">
+                        <img class="img-responsive img-circle center-img" src="https://s3-media1.fl.yelpcdn.com/bphoto/b1eGOf-iLoO512IKE_s1PQ/ls.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <!--END row-->
+            </div>
+            <!--END tab pane 3-->
+
+            <div class="tab-pane" id="bokning">
+                <!--Tab pane 4-->
+                <h2 class="text-center">Book now!</h2>
+                <div class="row margin-top">
+
+
+                    <form action="#" class="form-horizontal">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="roomnr" class="col-sm-4 control-label">Room nr:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="roomnr" placeholder="Room number...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-4 control-label">Name:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="name" placeholder="Name...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="email" class="col-sm-4 control-label">Email:</label>
+                                <div class="col-sm-8">
+                                    <input type="email" class="form-control" id="email" placeholder="Email...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-4 control-label">date</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="name" placeholder="XX/MM/YYYY">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary pull-right">Submit</button>
+                    </form>
+                </div>
+                <!--END row -->
+            </div>
+            <!--END Tab Pane 4-->
+
+
+        </div>
+        <!--END tab content-->
+
+
+
+
+
+    </div>
+    <!--END Container-->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

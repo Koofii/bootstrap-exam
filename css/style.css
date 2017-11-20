@@ -85,3 +85,55 @@ table{
     border-radius: 0px;
     background-color: white;
 }
+
+
+/* Simons CSS */
+.margin-top {
+    margin-top: 2em;
+}
+
+a img:hover {
+    opacity: 0.7;
+}
+
+.bg-transp-red {
+    background:rgba(255,0,0,0.1);
+}
+
+
+
+.card{
+    border-radius: 10px;
+    background: linear-gradient(#337ab7,#265a88);
+    margin-bottom: 20px;
+    box-shadow: gray 5px 5px 5px;
+}
+
+.card p, .card h3 {
+    color:whitesmoke;
+}
+
+.card img {
+    padding: 3%;
+}
+
+.center-img {
+    margin:0 auto;
+}
+
+.border-img {
+    border: 1px solid black;
+}
+
+.commentname {
+    font-size: 1em;
+}
+
+#comments, #comments li {
+    margin: 0;
+    padding: 0;
+}
+ 
+#comments li {
+    list-style: none;
+}

@@ -39,14 +39,16 @@
             <!-- navbar -->
             <div class="navbar-collapse collapse navtest" id="my-menu">
                 <ul class="nav navbar-nav navtest">
-                    <li class="active">
+                    <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="blog.html">Blog</a>
                     </li>
-                    <li><a href="photogallery.html">Photo Gallery</a></li>
-                    <li class="dropdown">
+                    <li>
+                        <a href="photogallery.html">Photo Gallery</a>
+                    </li>
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
                             <span class="caret"></span>
                         </a>
@@ -66,7 +68,7 @@
                             <li>
                                 <a href="spa.html">Spa/Massage</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="konferens.html">Conference rooms</a>
                             </li>
                             <li>
@@ -86,8 +88,200 @@
             </div>
             <!--END div collapse -->
         </nav>
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="all-services.html">All Services</a></li>
+            <li class="active">Conference rooms</li>
+        </ol>
     </div>
-    <!--END div contailer contains nav -->
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" id="firsttab" href="#info">Conference rooms</a>
+            </li>
+            <li>
+                <a data-toggle="tab" id="secondtab" href="#big">Big room</a>
+            </li>
+            <li>
+                <a data-toggle="tab" id="thirdtab" href="#small">Small room</a>
+            </li>
+            <li>
+                <a data-toggle="tab" id="fourthtab" href="#bokning">Book</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+
+            <div class="tab-pane active" id="info">
+                <!--TAB PANE 1-->
+                <h2 class="text-center">Have your Conference at our hotel!</h2>
+
+                <div class="row margin-top">
+                    <div class="col-sm-6">
+                        <div class="panel panel-info" align="center">
+                            <div class="panel-heading">
+                                <h3>Big room</h3>
+                            </div>
+                            <div class="panel-body">
+                                <img class="img-responsive img-rounded" src="https://www.landhotel-wiesbauer.de/wp-content/uploads/2017/04/kachel-konf_378.jpg"
+                                    alt="">
+                            </div>
+                            <div class="panel-footer">
+                                <a class="btn btn-default btn-primary" href="#" onclick="javascript:$('#secondtab').tab('show');">Click here For more Informaion</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="panel panel-info" align="center">
+                            <div class="panel-heading">
+                                <h3>Small room</h3>
+                            </div>
+                            <div class="panel-body">
+                                <img class="img-responsive img-rounded" src="https://static1.squarespace.com/static/523a67fee4b09b85171ac31d/528137f2e4b04f95c7226be6/528194f3e4b0f4289e53e6bc/1396492450556/Interior-ConferenceRoom_PhotoReal.jpg"
+                                    alt="">
+                            </div>
+                            <div class="panel-footer">
+                                <a class="btn btn-default btn-primary" href="#" onclick="javascript:$('#thirdtab').tab('show');">Click here For more Informaion</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END TAB PANE 1-->
+
+
+
+            <div class="tab-pane" id="big">
+                <!--TAB PANE 2-->
+                <h2 class="text-center">Rooms for big sized conference</h2>
+                <div class="row margin-top card">
+                    <div class="col-sm-8">
+                        <h3 class="text-center">Well light up rooms</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle center-img" src="https://s3-media3.fl.yelpcdn.com/bphoto/OuVw_t0piOPlVpC5Qdp8Ug/ls.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="row margin-top card">
+                    <div class="col-sm-8 col-sm-push-4">
+                        <h3 class="text-center">Technical Stuff</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-pull-8">
+                        <img class="img-responsive img-circle center-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRliakJduA42Q_y47khpg6uUzO5ztw2TmsLNE2h9zW35Ya5LnKC"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <!--END TAB PANE 2-->
+
+
+            <div class="tab-pane" id="small">
+                <!--TAB PANE 3-->
+                <h2 class="text-center">Rooms for Medium sized conference</h2>
+                <div class="row margin-top card">
+                    <div class="col-sm-8">
+                        <h3 class="text-center">8-15 Persons</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle center-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhMVFRUVFxYXFRUVFRYVFhUVFRUWFhUVFRcYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGi0fHR0tLS0rLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAEAgMFBgABBwj/xABKEAABAwIDAwkCCggEBgMBAAABAAIDBBESITEFQVEGEyJhcYGRobEywQcUQlJicoKS0fAVFiMzQ6Ky4SQ0wvFTVGNzg9JEo+IX/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDAAQFBv/EACYRAAICAQMEAgMBAQAAAAAAAAABAhEDEiExBBMyQSJRBRQzYUL/2gAMAwEAAhEDEQA/ALaKq/AeZW+eHb2qm0O2cTQ8Alpv0m5jI27VJU+0Wu0cD1b/AAXLrLaCw8+kOeD+c1FtqEsTLajaSQ5wjfftWc/xyQQmW/jAWsNB+JaxIIOO7L88EsOO/wAlrNQSXreJNsI3JaIBS2AkhLCJjRH5CwBLAWyAhRhtZZbuFFVO1XDIR2P0j52C1GslE3NM1mbnBvaQPVV9tXO82cSB9A4B4jpDxSnURacQJN9SLF3eTmVqNqJGfbEbdA53YCB4lCO2q93sBrb9Ree8ZBOQOiaLOIJPzjfw3BNtjObowXDst/utQNQxUtmPSc9xbwvhHeGW8yVlNEN1mg6hrQL/AIp+KV7sshx3pNRQgdIHPhcj7uaxrGqumaM2AdYNvJbpKq2437EXSQHXAb9Yz80RNs4vcHWwnfnqsEDko3T55NcNDvPUUHGS0lj3EW1vYeasEez7avPdl/dOMoIwb4bnicz4lANEZGIHMcxzMYcLOFibg9f90dsgSYCyS5LTaNzvbezdj+kNL77XRjWAaBbstYRHS4LE9zr/AJ3osQMce+DyuYMdO45k4mZ5HLpAde9W6oomO1A/PWuPxTPje17SWuabtPAhde2DtRtVC2QWDtHt+a8ajs4I5Y1ubFK1Q18Xkb7Eht813SHjr5rfx2Vvtsy+c3peSkHxdSaLVIrRlPVMd8q54HLyRjXqOlp2u9oApsQub7DyOp3Sb55+BWsFE016ea5Qba57fbZfrYb+Rz9UdRV7HmwNjwOR8CmTFaJJqda7ilR0xKfbSjgnSZNsaYQdEux4J34uttjI/umoWxrAePhklCPqT4HEWS2xX0Wo1g1k1UUrXjpD88Qdx6wpE0xGZIA61C13KOkiJa6TERua0lGjagKo2a9lyw37hce4+vagaelu67nSHiC428NykWcoXyfuKV7x855AHldTFLPiA5yPm3HcMx4oUYiJKIOHQYQeO49t0bBTSgWu0ealOaWYVjURjdltvicSSfs+mqIjpGN0aEVktdyww2G+Hp2JmRsmNuHDzdjiOeK+4DcirFYGH86IBsbstEhPcyCtiFCjA/cswFFc0nY6Vx0aT3I6WzWgHmzx8lik/wBHSfMPgsW0M2pHliSxJOeWmf4qW5LbddSyg6xusJG9V/aA4hR0EBcZLata52eWhHnmmS4+B1796tVqiV07O30lTHK0OjeHDqOnURuKddEuR7O2w7n4SwmM4mteQcnAuAz/ADvXX2vC5pw0nTCeoZMCS6FGNWP3dvuKQYAdAkiAYm3A9pvqFJOYEinYDLGOMjB/OEyFlwTLHgey7/UPxCfZU8W3625+SfrdkMdmBY8QomGjmtiaQeoroqjitktG9rtCPf4JZhUQagj95GR1jMfnvRVNVX9h9+o5+RzRNqDeYWuZ4Zdi0Kw/KHeM/LVPRytdofctsNYkOdazgHDryKCmoIXOxFgv1tBPipMtCwtC1BsCZCBo0+iVzR6h5ojDwWdyARgRdZ9Fhh/OqfsswoBGMPELAwE2T+ALcXROJpseI39vFAJuOhedGnwt6omPZLzrYd9z5Imn2nueO8e8Jbtpjc099h6XTpRBbGo9jD5T79gt6koluzY+BPaShn7SduAHmh5K5/zrdlgjqigUyYbAwaNA7ljpmjVwHeq7LWcX+JQ36RZ/sLodxB0lp+OR/PHisVV/STeB8FiHcNpPNlHKGPkudWPbfjc5eiHDMnZ53tb3o2mgLsr6h5scxkwu9yVTbMxl4DrEOc23ZvKYBHzizWH6P+p/4K77H5dMDI2zNOJos53HgQLa+CplXTPaxhNiCDhI4A/iUfsiFhidjbfN1uqwbj8iEHFNbhUmmdJoOUlPKRgeMxezujbO1jfepZ8w6JvlfX7Llx6oo2BwwOwnSzSb67j5dydpJagEiOZ2RthdexyJ7NAVJ4/oosh2MP3JFJ+/i/7sf9YVFods17ek6MSC2gc2+WLPdwPgrbyXrXzOie+MxnnWDCep4S6aYzlaOlu0QGzm9Hx9UY45IPZxy7z6rso4Ql9OCgajZDHfJ8MlKgraDig2VyTZsjfYebcHZhB1E0jPaZ3gq2Oao7acI6P1vcUko7GVELFta2pI6ijafazXC+vWE9Ps1rm6d6ApabAy3WfVTkmkPF70Ht2mw7/cl/HAoWqhB3KFn5wOsHGyj3GX0ouhqRxWjVAb1Wqdjjq4nvRscCOtsBLfH2cVr9IDcD4ISOJEMiTWwC/jztzfFJ5+Q8AnmQIhlOjuYBtIdXHuWCjJ1JPepZlMn206OkxDMoBwTraLqUw2BLEKbQYhviaxTPMhYtpMeWdjUkjgZbdBrXgn/wATgLcUTzJiON/8VuNhBuCHMvn15qxwQMGzA8kBwjJ6zfELeaJ/Q7Kqjp8DwHthZ8n6DQb/AHbLOW4VHYotW3FExoxX6WR63ggDwKO2Fs2oMZwtyJdqbHpNa3/SpQ8lJC5pDgbZG97OsTc3UxTzwMtG4sDm5ZgZHhdNB2JO0Qp2fUsIIYHW3ZA+1i96EbDK02dG9upJysfZP+i32ldsA1bv3jMaJM1O4jUEnqGSdRX2Jql9Fe2dU4JCM7c2faBGjXjf9ZW3k9tFrpIm21mbmDce01Q3MOAs4X7LcU7sNrhVwdCw51meY+UEeyuRe/Lg644oSgOvafVEnRC0Wp7T6phCQBSgUhqUsE2SgtoaDtCMKErh0e8JXwEdZoowtyP1j6lSUOgQbmZuH0j6pJ+IY+RHTMURURdJWGWNRVRH0guNo6TII0bGxJgiR8MKZIDExxIqKFPRQouKJVUQDMcKIZCn2MToaqJAsabEnBGnAFsBNQLEBi3gS7LLLAEYViWtImODDY7nUYpXTNsLDEALixJtmVIbO2eIIGwh5GEe2GuaSL3zOYOqKdtFgAu8EG+sfDjiuioixwxAtdbTKwFxuAUmq5LXfBEHZrcLcM7uol2uellqbkxiJeW4iCCACLGwtYqUmowek9ul7Z6X6imWxMtZpwnc5rsPoc+9a0LT9kLUQGwYYnNAzPRAPiOCAYAG5TSXccrPfcAbrK08083OJr28HsBt9ptrp6OQNyMbLHW1rduiZSoDhZRnbV5sdIyPde2d8uBI4dal+Tu2GyVVO05OMrOiR9Ib1JVWzonPxB0jd+EYTnutw7E9sWhw1EROAnnWkHAGvyO+wzK6FkhXBzPFO+Top0QtJqe0otwQ1MMz2pTBzUpJalLBNJirHRRKZqBklYUag3Jho6bh1lEwbkhrf2ju0pZeIy5GnxKNqKfpBThahZ48wueUS4PBCjookmNiKjCaKAxbGIhgTTE81UQrHAlhIBW7pgClu6YmqWs9pzW/WIHqhX7ZpxrNH98fisAkbrLqFl5T0bdamIfaCDm5dbObrVR9xusGiy3WKp//ANE2b/zLfA/gsWs1HOJNixh2JuME6hshJJPEPuFobKmJymLbbnNafAtIUpFSPa5ziM8yGueAPJxT2FxPsi5+a82HVpml7kvsd44/QOyheG/vHk2PtNuDfrJTE+z3EtJdYNGliLHqIOilpGvyHNnuesfHJvY499/ek1b2GtqIcRS2wl9xn8m2vAg5d4Kabs4E3xvHRtbJwv3jJS2A/McOq/vutEbsDr/nff3I6g6SFZs+Vry5suEXyGdrZZEWRexTUGrhxOGHnG3t2o5j87WcOxObNcPjMVw+5eLX07808cjvdEpY1WzL6ULBqUSULDqVRkQ5pSkhpSgVjCiU1Nol3SJtCgwo3BuWfxHLVNuTkos8pXwOuRSYmGieBQO05ywYrAjeNMlGT2LJBTE+1VL9Y48Vr5h2ncdDv7VNbO2kJLEEZ6dgSRyxboZwfJLtKcBQwcnWuV0yY+ClXTQct3RsBzf4ZXf5UfSk9AqG0ZK5/DI/Ol+s/wBAqZCU64JS5BKxmV1X612asteOiVUK11ihIaD2M5xYhucW0ox2l8kb72qmgcWvb53BW2iADKVrjvcZUPTU9O4h5kMg44Gi+fWRcJ2qbG4ERsjcHalzsJ6vZBQ2b2H3S3DGObbovZYD2sROffuWnSaWnv2FufZmFGto3FuG8dut7nDwwhNSbIbve0Zbt3ZlkhpXthcn6RIzSS3uDvyJ/wDzeyZlmmBFnHPhG53mBkhYtksaMpn2Gtnm3otxzx3wNnv1YifQIV9BT+xcHPkn9qMsyXxlvcSW9qL2RWn43DHYP6Y6bS3CBbx9EjF8m5cOFjb+YJWxHv8AjcQ5sAYtehfQ7gjGm9wTTS2OhuQsZ6RRLihGHpFWZyhrSlXTbSlXWMLum5TkVvEkSnIoMKFUrtE/VHplB0rtERtJ1iT1e5LLxHj5CHzZZa+So/KjlHG0lsvOtsDiaHWFrbiDnxUrLtRwLg0gHQb/AHhUvltFK5pL3NcW+z8/CTmD1dYuFxylZ1JUC7ZroMZ5pziwFzcIGVwAQcRNznkR1K08ndvw4WiMOvYaAHXW9yDqPNc2ondEty6bejfW1r5dan+SEjRK5oBu2wyOVr3JIJ0HBRktO6KL/TsNNPiH90U1yh9mSC1h6W/3Umxy68crRCSCg5KumGlKuqCHLvhqkt8V+u/0CqFK7JWz4aRc0o+m/wBAqdDK0DVUjwSmOVZ6JVK2g7pFWWq2oyxF81U6ucElMzRGsSxIxrSWh7OnnbZDjhp4AdM8V9L6EXRlPykcGt/ZwtJ1zy7skf8Aq5BE/E+W7XWLsbrX4m9801VQ0+fNvhte2EkE7/ZIGuihrv0dGivYy3lC9zbhrL3I9k27L2UxGBIwFwByvax365KHdsSEt6Thb6NyTprYWUtTVtOxgbm0DLpXJW3fCYNly0ONiaAA0NA4WWyAOHDIIeXb9KP4jey4uhZuU0A0Dj2NQ0y+g6o/ZJgorZLv8TEL/K9xVXdyxjvZrCTwJDT4FH8meUfPVkMfN4buOeIHRjj7lknZpNUzpjygmnpIqRyCaekupnAHNcl3TLSlhEwslIkdkVq6TJoUGETSu0RG2n2F+oeiEpgU/t0dFpOWQ9Ek/BlIeSOb7TqHCQ2NlFbTlnkYA44mi9nGwAFu70UzXxdO6DlguTfv7OC4PZ1lOhaS22E3a3Tr4DipXk9XFhL3tcbuzIYTvJINu0oKexZc+0cLSNLXyB7QQrRyZpsTGk68dL5kXNt+SzQyL3sOTGxrrPGXygQfPVTjCozZ7SGgE3KkWlWhsict2ENKWo1u1IvneIKdG0Y/neqyz43/ANIzwz+ilfCnyfnqxCYcN4y+93W9oAC2R4Fc3k5CV283+3/ZdxrJBIOhnY5oYUruCosj9EnGnucQ/UCsBvh/mah5eQdUP4Tz2Oj95XdnU7uCadCeC2uQKOFfqRVf8CX70X/ssXcuZPBYtrZqORQ0gb7MkI+q5xP8qcdUlutSB2CT/UpwO2X8lgl+y+X1utu2jRR+zS26vi7WeoCHfnwi/wCvjW7KtNNG45zl5+ow+qxkDD7InP1Y7f0qzfrO3RlM4duADyTMnKOfdCwdryfIBDVkZqxL2Q7NnSHSCc/WfYeBTsewJSbimjb1ueb/AMtkW7bdSdXxt+qwk+bluaWQ/wAaoePoMiY3ucdfFTetclI9t8GoOT8//RZ2NLv6iVO8kNiPjrYSZGmxd0WxMbf9m7eACqtKWn2udJO6SqJPaGMNj2LVFtVsBIDQSBkdD13tYnvTQjJu7FyTgvjXJ3Soc1vtOa3tcB6oBlVDi/ex/eBXGZuUj9xDfqgDzCCk27If4jvvFdWo4tCPR0NIoB/Kum52SFnSfES12Ihjbg2Nidc+Czk3tZ3xCCR73kiBpP2W5XO/IDNcKkrSZS65JcXOPE3JKGu+DaKZ2Ot5ZxM+Uz7OJ34JXJ7lhHUziCxOIOscNs2i/E3XEJKyRxyB78lafgqDnV7ST7LJD5W96VyYyiiycuuVU1PXCGNxEbWtxM9m7n7yRnkoCu5VSjMODTxtc+JzUfy9kxbUkHB7R4AKOqaRud878VnuZbFy5O1r54jI9xccZFz2BSAbmozkY0CmIG559ApZozXJLyLrgqe2NnkYy3Rrxl1aq9bCocLWdguN1yM1XKulvI9ufSezzH9leqJlrLD2StO2wRBdYFMxqNqNuUuE3naLZEZ368k90hUrZHRVBz9qwJzBy8FC8udqPhpcUb3NLpGtuNbWcT/SrHDBSkWFS3O5Gbc+O9VL4UI420bQyVrzzzAQCMuhIb5Lk6fptMk2zpzZ7TSRS28rasf/ACJfvJyPllWDSpk7yD6qtiEHW6z4sPnFeokeey3x/CBXNH76/axvuC69yQrnVFJFI83cQQ48SDr6LzmYrb7ru/wXzXogODj5gJZBiW7m1i3dYl2GOJyTTb31jusNp4B6ApjblXhu0kuwhrQXnE7o5El28nNWscgadjS+R7n4QXWsLGwvmX4ju4rnnKGe5J4k+ZRxrk2aVtI3Lto7jbsQM21b71EyQvdmPVabQuOrgnomHHaF96ufJbkxJVwtlvCGkuF3sdI7okjQuw7uCoYpQ3fddt5Bx4aGDrbf7xJSZOB8fJX+UHJoUkAfzxcS9rQ0RxRszDjoxoO7iud1bnOe6y6z8JD/ANhGP+pfwYfxXI3Ps8lGHiLN/IbFK86uAWxBh3kpx0qQH3KYB3iDobMbb5NI0f8A0hcTo39MHqXaaHp7MjHGkZ48wFxKlBueoKcPY0/QXVPzKs3wVv8A8b2xv9xVJmnJVm+DWqwVsZOWLEz7wICeS2AnuJ5bsLdqSdbwe4gISrlUz8KsFq1sjLHExt7EGxaSLHrUO+HFmI3EnecgEraSth0tvZFg5EVN2Ss6w4eh9ymzVsZcvcB69wVZ5PUEjHOeHBoLXNsBfXQ9xsjXbJF8Uj5JDxc6w+6yw8lyZMsE+Tqx9Pka4DmbRidUAg3aMJJG4i4zCuVHXRG1nt8VzsxDq3dSktn5W/Fc37W+yOpdJtuzpDJ2nQjxVLp9h84173EtON1uiMVrDed3cpeg0UkwJ3PXyhezp4ZTdibEE0ON9w7E8bhk1xAyt1Ku8tKbm4MA3TgeEb11RtK3goHlpsqN8LbtBs8HUj5LggpKDUq4C8Tlcb5OJOfZa51Xd3Jyndqzwf8Aimncj4DpjHY4fgqr8nh92Sf47L/hTg66678G+2oIKUiV9iXCwsSSAMzYblV6TkIHm0ZkJ7AR43Vw2RyKhpwHVT8ZHsxtJA+1bMnq0XTjzwzK42c2TBPE96LL+t1F/wAYeBWKK+I0X/Kjw/usVNie4ftyTDTyn6DvMWXDNtHOy7bylP8AhZvqe8Lh20jcrY+BcnkCxuySS9NY7JL3qgo6XruHIz/I0/8A22+i4ZA267dyDkxUUXUC37riFPJwUx8gHwmD/DxnhIR4tP4Lk0zdSuy/CJBionH5jmO8XYD/AFrlMRiIs91uzW2/JaD2BNfIhTKn6dpupyRsIP7Bhw7i5tie24zSBSl5GI27B71nlihlhm+EdY5E1TX0MQLhZgMbrm3s5DX6JC5HJC6OZ4wFwDnDLO4ubEFdl2dyVpo6SwZiJjxXeS7plmbgDkCucmjIdYKc56N17K48Xc59EPFE4m4jbH2nEfT3qz8gdgRy1WKS5wtLwAS0YgRbTtQ7KVx3XVp5DQFkxJba7SFGOWUpF5YIRiyA5R7LYyqfgY0C98hn3phtP1K2cpaRolfI4GwGIkcAFTJuUcWjCB2k+ZQeGU2x1ljCKLBsil6O/VK2jHYa+SqjNvyE2D/ulWjZ23YYY+ell6TdAQHEk7g3eUr6N+2ZdYvoBZA4nieFijKV7Wm1sTvmszPfbRDnla6dxPMOwuFrvIbfuANlqOslN+baI2jXCLDvJU5dC0/ix49ZGt0WWijmdqREODbPk/8AVv8AMp2FpsNe/MntVB2dyraJMHOYzoSBZl77iBme2wXQ4MwM0e3o2Y3cU9x5ijuUrLw7vaGo7VJYwN/cMymasxkWlIDdbbz+CZ4nONITuxhK2UTmvqJitl5uNz7NyGWe85DzKt1btCFrS1kbQ3i4C57BqqRyicHQSFrbWLf6mrll0OmSbdqyy65TTSVOiFi228HqvqCQe8gqfpNtyOuL+dzbrJzVIup7ZT8+0L2mklseHqb5LB8cfxWIe6xTGLltSeOekmMb2vaWOzab5gXt1HJcWmjurT8Hu0yZZIXO6MkbxmdCB+BKrD6iMG2MuN9GMLvNPFUaW9MBbsiaQkxsJaNTcADvKc/QZH7x7W9QzKlYjJhIY4tB3OFj5FajoAc3ku77BSn1EIcstDppy9ETzTW5NN1dOTW3paejdHGwc4ZejjuGtYW3L8hnmLW61FMpWDQWUvTUgwhcsus1bJHXj6Kt2wev2jVzMLJZ7tdk5jWhrSOG8+aiItnBpyaFP1NNlkhGQlRlmk/Z0LDGPoE5komli6Qy3o2CnO8KUoqO5GS0YtsLpI6NTC8LRxYP6VQZNkXkNr6ldApBaNo4AeiAqXxRkk9p3DtJOQXoTjqSPPxycW6K/S7BKm9m0AiNyepBjbLpMqaN0n0xlGP/ACO6J+zdLj2XLIbzSW+jFcDsLzn4WSKKXBVtvkK2nWRRmzrOedGAF7j9ltyQqvX7AZUG5gZCNSSAXn7Dei3vJ7FcaSjjjFmNDb6kantOpTVdYGyORfGwY5JSooz+Q9NuB7Tr5aIGr5IhhxQvAP024/AnRXtxCCqmgrieSUeGdnbjLlHPp9mVzdHRn7P90qPk9W1OFsshwAZtBwt8texXUU4vqpGlgsgupyvazfrY1vRXqDZUFFZpZzkmoY0DxJKlIeUgDsEsT2Hc22veqJyk2kXzPIOWI27B0W+QCDhrHvyLjkOO5ehjwpK3yeXl6mUpNLg6fVco2tFgQzqvid32yHioSp23iNxmeLs1UoyjISq1RDU2Sj6lztSoLlRtJ0TGxt0lIa7xCl4goPlrH+yY75sjfMpKTdMZScd0Q6ltkvzb2KIcUfsp2YVWSRZcS0m8S2pDFN2Sf2rRxPuViNO0aNA7FAbCZednb7irdPAeC4eunTSPV6GFxbBBE2y18W4J4RFawrzdTPQpDfxYqQpmkNCZjujon5aJothpDMpyS9nw4jZM7TrBE0OwEjeR8nr61Afreb2p2PLuIaLea7cOFzWr0c2XMoOvZ0ym2aLZhHUVPHewLSdbAjTiuWxQ7SrcrGx1xOc4DuyaFb+S3JCWB7JZZ3Ow3Ijbky5FrkDK/WuyKguHZxylN8qi+mMEWz7iQfJRsuwo3Sc5IXSHKwkONrbfNboPBSDXLZcVWyCRoM8BoNB4LHvWFyakeErdDpWxbJEDWyC6JaVH1jbkqU5fArjj8xlzghpQDvW5AhJAVwSaO+KCGMRkTSo2OQhFQ1JQiGS2OSVZOI34lboXWcnduR4aiVvB7rdlyh6Z3SC9tcHzslUmiVjKMhQUTkZEUGBEhAheUdNjp3i17WPgQTr1XRMBStq/uJTYHoO1z3KfsdFHcjtmahR5KkdmDpK0hET11iRiW1IYrnJr/MM7/wCkq7SLFi8z8h5ns/j/AOYLIkLFi4YcnazbERGsWKoqA9tfu3dihNg7u1bWLqj/ABZzy/qjr+yP3TexGx6rFi6cXijmy+THwscsWLoOcQ9MPWLEkh4CHICfVbWKGTxOjF5DLkJItrF50uTviaSXb+w+hWLFTFyJk4OUfifUrcPtBbWL3VwfOT8mS1OjIlixKwIPgTm0/wDLy/Ud6LFik+R1wULepTZntLFivISJLrFixSHP/9k="
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="row margin-top card">
+                    <div class="col-sm-8 col-sm-push-4">
+                        <h3 class="text-center">Technical stuff</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint et totam beatae quas quod reiciendis,
+                            libero consectetur? Tenetur perspiciatis id quod dolore cum explicabo nesciunt illo repudiandae,
+                            vitae obcaecati expedita quidem a maxime nemo nam ratione accusamus natus beatae commodi tempora
+                            rem cupiditate modi consectetur facere! Excepturi, corrupti asperiores?</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-pull-8">
+                        <img class="img-responsive img-circle center-img" src="https://s3-media4.fl.yelpcdn.com/bphoto/VzX2TbwiXmqRYN85zMuQjQ/ls.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <!--END TAB PANE 3-->
+            <div class="tab-pane" id="bokning">
+                <!--TAB PANE 4-->
+                <h2 class="text-center">Book now!</h2>
+                <div class="row margin-top">
+
+
+                    <form action="#" class="form-horizontal">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="roomnr" class="col-sm-4 control-label">Room nr:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="roomnr" placeholder="Room number...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-4 control-label">Name:</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="name" placeholder="Name...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="email" class="col-sm-4 control-label">Email:</label>
+                                <div class="col-sm-8">
+                                    <input type="email" class="form-control" id="email" placeholder="Email...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-4 control-label">date</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="name" placeholder="XX/MM/YYYY">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary pull-right">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <!--END TAB PANE 4-->
+
+
+
+
+        </div>
+        <!--END tab content-->
+
+
+
+
+
+    </div>
+    <!--END Container-->
+
+  
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
