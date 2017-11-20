@@ -51,13 +51,13 @@
 /* list styling för information på specific service pages */
 .roomservice{
     border-radius: 10px;
-    background: linear-gradient(#337ab7,#265a88);
+    background: linear-gradient(#3d3d3e,#4c4c4e);
     
     margin-bottom: 20px;
     box-shadow: gray 5px 5px 5px;
 }
 .roomservice:hover{
-    background: linear-gradient(#337ab7, #337ab7)
+    background: linear-gradient(#3d3d3e, #3d3d3e)
 }
 .roomservice h1{
     color: whitesmoke;
@@ -104,7 +104,7 @@ a img:hover {
 
 .card{
     border-radius: 10px;
-    background: linear-gradient(#337ab7,#265a88);
+    background: linear-gradient(#3d3d3e,#4c4c4e);
     margin-bottom: 20px;
     box-shadow: gray 5px 5px 5px;
 }
