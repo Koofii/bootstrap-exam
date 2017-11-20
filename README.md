@@ -79,3 +79,6 @@ Kristoffer: Specific services-page.
 
 
 Simon och Kristoffer sitter och kodar tillsammans idag kl 09.00 - 16.00. Basheer var med till kl 12.00.
+
+
+Gällande "freestyling"-styling har varit helt ok så länge gruppen har varit ok med det!
