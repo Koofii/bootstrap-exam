@@ -78,4 +78,4 @@ Simon: Photogallery-page och Blogpost-page
 Kristoffer: Specific services-page.
 
 
-
+Basheer, Simon och Kristoffer sitter och kodar tillsammans idag kl 09.00 - 

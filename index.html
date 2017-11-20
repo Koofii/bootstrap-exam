@@ -11,6 +11,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,8 +24,8 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target="#my-menu">
+            <div class="navbar-header navtest">
+                <button class="navbar-toggle navtest" data-toggle="collapse" data-target="#my-menu">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -33,13 +34,13 @@
                     <span>Hotel Happy Time</span>
                 </a>
             </div>
-            <div class="navbar-collapse collapse" id="my-menu">
-                <ul class="nav navbar-nav">
+            <div class="navbar-collapse collapse navtest" id="my-menu">
+                <ul class="nav navbar-nav navtest">
                     <li class="active">
-                        <a href="index.html">Home</a>
+                        <a class="li-item-test" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="blog.html">Blog</a>
+                        <a class="li-item-test" href="blog.html">Blog</a>
                     </li>
                     <li><a href="photogallery.html">Photo Gallery</a></li>
                     <li class="dropdown">
@@ -82,6 +83,7 @@
             </div>
             <!--END div collapse -->
         </nav>
+    </div>
     </div>
     <!--END div contailer contains nav -->
     <div class="container hidden-xs">
@@ -133,13 +135,33 @@
         </div>
     </div>
     <div class="container">
-        <div class="col-sm-6 text-center">
-            <h1>Trips</h1>
-            <p>Explore Thailand holidays and discover the best time and places to visit. | Friendly and fun loving, exotic and tropical, cultured and historic places.</p>
+        <div class="col-sm-5 col-sm-offset-1 text-center indexinfo">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4>Wifi</h4>
+                </div>
+                <div class="panel-body">
+                    <img src="https://hasthegeek.com/wp-content/uploads/2016/06/wifi-1.jpg" alt="" class="img img-responsive center-block">
+                    <p>Lorem  dolorum ipsum explicabo debitis minima magnam quo voluptate cum quia eaque, porro commodi recusandae corrupti rerum suscipit repellat libero consectetur.</p>
+                </div>
+                <div class="panel-footer">
+                    <a class="text-center" href="wifi.html">Read more..</a>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-6 text-center">
-            <h1>Roomservices</h1>
-            <p>Hotel Happy Time offer guests hot food options throughout the night. You can order from the best 24 hour and late night restaurants in the area, delivered directly to your hotel bedroom.</p>
+        <div class="col-sm-5 text-center indexinfo">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4>Trips</h4>
+                </div>
+                <div class="panel-body">
+                    <img src="http://www.creation.com.es/wp-content/uploads/2014/06/21.5.roadtrip-1.jpg" alt="" class="img img-responsive center-block">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fuga incidunt at voluptatum modi qui officiis, fugiat itaque consequuntur, dignissimos debitis odio illo quasi, illum animi labore nisi nulla a?</p>
+                </div>
+                <div class="panel-footer">
+                    <a class="text-center" href="utflykt.html">Read more..</a>
+                </div>
+            </div>
         </div>
     </div>
 
