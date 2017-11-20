@@ -5,6 +5,9 @@
     margin-bottom: 20px;
     box-shadow: gray 5px 5px 5px;
 }
+.roomservice:hover{
+    background: linear-gradient(#337ab7, #337ab7)
+}
 .roomservice h1{
     color: whitesmoke;
 }
